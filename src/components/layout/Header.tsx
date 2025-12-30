@@ -43,13 +43,13 @@ export default function Header() {
         >
           <Image
             src="/logo.png"
-            alt="Octolabs"
+            alt="Octodev"
             width={48}
             height={48}
             className="w-12 h-12 glow-effect"
           />
           <span className="font-display font-bold text-2xl text-gradient">
-            Octolabs
+            Octodev
           </span>
         </motion.a>
 

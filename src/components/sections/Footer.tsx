@@ -64,13 +64,13 @@ export default function Footer() {
             >
               <Image
                 src="/logo.png"
-                alt="Octolabs"
+                alt="Octodev"
                 width={48}
                 height={48}
                 className="w-12 h-12 glow-effect"
               />
               <span className="font-display font-bold text-2xl text-gradient">
-                Octolabs
+                Octodev
               </span>
             </motion.a>
             <p className="font-body text-text-secondary text-sm leading-relaxed mb-6">
@@ -159,7 +159,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-sm text-text-secondary/60 text-center md:text-left">
-            © {new Date().getFullYear()} Octolabs. Todos os direitos reservados.
+            © {new Date().getFullYear()} Octodev. Todos os direitos reservados.
           </p>
 
           {/* Floating Octopus */}

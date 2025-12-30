@@ -115,7 +115,7 @@ export default function Testimonials() {
         >
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
             O que dizem sobre a{' '}
-            <span className="text-gradient">Octolabs</span>
+            <span className="text-gradient">Octodev</span>
           </h2>
           <p className="font-body text-text-secondary text-lg">
             Clientes satisfeitos em águas profundas

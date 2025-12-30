@@ -134,7 +134,7 @@ export default function About() {
 
               <Image
                 src="/founder.png"
-                alt="Enok - Fundador da Octolabs"
+                alt="Enok - Fundador da Octodev"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 256px, 320px"
@@ -194,7 +194,7 @@ export default function About() {
 
             <p className="font-body text-text-secondary mb-8 leading-relaxed">
               Desenvolvedor Full Stack apaixonado por criar experiências digitais excepcionais.
-              Com anos de experiência em projetos de todos os tamanhos, lidero a Octolabs
+              Com anos de experiência em projetos de todos os tamanhos, lidero a Octodev
               com foco em qualidade, inovação e resultados reais para cada cliente.
             </p>
 

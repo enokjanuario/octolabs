@@ -2,10 +2,10 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Octolabs | Desenvolvimento de Software em São Paulo',
+  title: 'Octodev | Desenvolvimento de Software em São Paulo',
   description: 'Desenvolvimento de software personalizado: aplicações web, mobile, integrações e consultoria tech. Soluções digitais que abraçam seu negócio por completo.',
   keywords: 'desenvolvimento software, aplicativo mobile, sistema web, react, next.js, são paulo, consultoria tech',
-  authors: [{ name: 'Octolabs' }],
+  authors: [{ name: 'Octodev' }],
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -15,16 +15,16 @@ export const metadata: Metadata = {
     shortcut: '/favicon.svg',
   },
   openGraph: {
-    title: 'Octolabs - Software que abraça seu negócio',
+    title: 'Octodev - Software que abraça seu negócio',
     description: 'Desenvolvimento web, mobile e integrações com qualidade e precisão.',
     type: 'website',
     locale: 'pt_BR',
-    siteName: 'Octolabs',
+    siteName: 'Octodev',
     images: ['/logo.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Octolabs - Desenvolvimento de Software',
+    title: 'Octodev - Desenvolvimento de Software',
     description: '8 braços trabalhando no seu projeto. Zero bugs.',
   },
   robots: {
@@ -49,11 +49,11 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'ProfessionalService',
-              name: 'Octolabs',
+              name: 'Octodev',
               description: 'Desenvolvimento de software personalizado - Web, Mobile e Integrações',
-              url: 'https://octolabs.com.br',
-              logo: 'https://octolabs.com.br/logo.png',
-              image: 'https://octolabs.com.br/logo.png',
+              url: 'https://octodev.com.br',
+              logo: 'https://octodev.com.br/logo.png',
+              image: 'https://octodev.com.br/logo.png',
               telephone: '+55-31-99150-8940',
               email: 'ejrocha07@gmail.com',
               priceRange: '$$',

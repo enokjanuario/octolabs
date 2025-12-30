@@ -67,7 +67,7 @@ export default function Hero() {
           >
             <Image
               src="/logo.png"
-              alt="Octolabs"
+              alt="Octodev"
               width={120}
               height={120}
               className="w-28 h-28 md:w-32 md:h-32 glow-effect"

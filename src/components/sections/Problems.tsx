@@ -143,7 +143,7 @@ export default function Problems() {
               </motion.div>
 
               <h3 className="font-display text-2xl md:text-4xl font-bold mb-4">
-                A Octolabs{' '}
+                A Octodev{' '}
                 <span className="text-gradient">mergulha fundo</span>{' '}
                 no seu projeto
               </h3>
