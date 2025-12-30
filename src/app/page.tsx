@@ -11,6 +11,7 @@ import {
   Process,
   About,
   Testimonials,
+  FAQ,
   Contact,
   Footer,
 } from '@/components/sections'
@@ -35,6 +36,7 @@ export default function Home() {
         <Process />
         <About />
         <Testimonials />
+        <FAQ />
         <Contact />
       </main>
 
