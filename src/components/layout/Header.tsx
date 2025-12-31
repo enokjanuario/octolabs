@@ -3,18 +3,21 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
-
-const navLinks = [
-  { href: '#servicos', label: 'Serviços' },
-  { href: '#projetos', label: 'Cases de Sucesso' },
-  { href: '#processo', label: 'Processo' },
-  { href: '#sobre', label: 'Sobre' },
-  { href: '#contato', label: 'Contato' },
-]
+import { useTranslations } from 'next-intl'
+import LanguageSelector from '@/components/LanguageSelector'
 
 export default function Header() {
+  const t = useTranslations('header')
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
+  const navLinks = [
+    { href: '#servicos', label: t('services') },
+    { href: '#projetos', label: t('cases') },
+    { href: '#processo', label: t('process') },
+    { href: '#sobre', label: t('about') },
+    { href: '#contato', label: t('contact') },
+  ]
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,8 +80,9 @@ export default function Header() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Iniciar Projeto
+            {t('startProject')}
           </motion.a>
+          <LanguageSelector />
         </div>
 
         {/* Mobile Menu Button */}
@@ -134,8 +138,11 @@ export default function Header() {
                 transition={{ delay: 0.2 }}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Iniciar Projeto
+                {t('startProject')}
               </motion.a>
+              <div className="flex justify-center mt-4">
+                <LanguageSelector />
+              </div>
             </div>
           </motion.div>
         )}

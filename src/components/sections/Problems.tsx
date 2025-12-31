@@ -2,28 +2,30 @@
 
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
-
-const problems = [
-  {
-    icon: '⏰',
-    title: 'Atrasos',
-    description: 'Prazos estourados e entregas atrasadas',
-  },
-  {
-    icon: '🐛',
-    title: 'Bugs',
-    description: 'Sistemas instáveis e cheios de erros',
-  },
-  {
-    icon: '💸',
-    title: 'Custos',
-    description: 'Orçamentos que fogem do controle',
-  },
-]
+import { useTranslations } from 'next-intl'
 
 export default function Problems() {
+  const t = useTranslations('problems')
   const sectionRef = useRef(null)
   const isInView = useInView(sectionRef, { once: true, margin: '-100px' })
+
+  const problems = [
+    {
+      icon: '⏰',
+      title: t('delays.title'),
+      description: t('delays.description'),
+    },
+    {
+      icon: '🐛',
+      title: t('bugs.title'),
+      description: t('bugs.description'),
+    },
+    {
+      icon: '💸',
+      title: t('costs.title'),
+      description: t('costs.description'),
+    },
+  ]
 
   return (
     <section
@@ -43,11 +45,11 @@ export default function Problems() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            Seu projeto está preso em{' '}
-            <span className="text-gradient">águas rasas?</span>
+            {t('title')}{' '}
+            <span className="text-gradient">{t('titleHighlight')}</span>
           </h2>
           <p className="font-body text-text-secondary text-lg max-w-2xl mx-auto">
-            Problemas comuns que afundam projetos de software
+            {t('subtitle')}
           </p>
         </motion.div>
 
@@ -143,14 +145,13 @@ export default function Problems() {
               </motion.div>
 
               <h3 className="font-display text-2xl md:text-4xl font-bold mb-4">
-                A Octodev{' '}
-                <span className="text-gradient">mergulha fundo</span>{' '}
-                no seu projeto
+                {t('solution.title')}{' '}
+                <span className="text-gradient">{t('solution.titleHighlight')}</span>{' '}
+                {t('solution.titleEnd')}
               </h3>
 
               <p className="font-body text-text-secondary text-lg max-w-xl mx-auto">
-                Com 8 braços trabalhando simultaneamente, abraçamos cada detalhe do seu projeto
-                para entregar soluções que realmente funcionam.
+                {t('solution.description')}
               </p>
 
               <motion.a
@@ -158,7 +159,7 @@ export default function Problems() {
                 className="inline-flex items-center gap-2 mt-8 font-display font-semibold text-tentacle-cyan hover:text-glow-cyan transition-colors"
                 whileHover={{ x: 5 }}
               >
-                Conheça nossos serviços
+                {t('solution.cta')}
                 <span>→</span>
               </motion.a>
             </div>

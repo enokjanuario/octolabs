@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "title": "Octodev | Desarrollo de Software",
+    "description": "Desarrollo de software personalizado: aplicaciones web, móviles, integraciones y consultoría tech. Soluciones digitales que abrazan tu negocio por completo."
+  },
+  "header": {
+    "services": "Servicios",
+    "cases": "Casos de Éxito",
+    "process": "Proceso",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "startProject": "Iniciar Proyecto"
+  },
+  "hero": {
+    "badge": "Plazas abiertas para nuevos proyectos",
+    "headline": "¿Proyecto atascado?",
+    "headlineHighlight": "Lo desatascamos.",
+    "subheadline": "Transformamos tu idea en software funcionando en",
+    "subheadlineBold": "hasta 30 días",
+    "subheadlineEnd": "Web, móvil, integraciones — con código limpio y soporte continuo.",
+    "freeQuote": "Presupuesto gratis",
+    "response24h": "Respuesta en 24h",
+    "satisfaction": "Garantía de satisfacción",
+    "ctaPrimary": "Quiero mi presupuesto gratis",
+    "ctaSecondary": "Ver Casos de Éxito",
+    "stats": {
+      "projects": "Proyectos Entregados",
+      "clients": "Clientes Satisfechos",
+      "rating": "Valoración"
+    }
+  },
+  "problems": {
+    "title": "¿Tu proyecto está atrapado en",
+    "titleHighlight": "aguas poco profundas?",
+    "subtitle": "Problemas comunes que hunden proyectos de software",
+    "delays": {
+      "title": "Retrasos",
+      "description": "Plazos incumplidos y entregas tardías"
+    },
+    "bugs": {
+      "title": "Bugs",
+      "description": "Sistemas inestables llenos de errores"
+    },
+    "costs": {
+      "title": "Costos",
+      "description": "Presupuestos que se salen de control"
+    },
+    "solution": {
+      "title": "Octodev",
+      "titleHighlight": "se sumerge profundo",
+      "titleEnd": "en tu proyecto",
+      "description": "Con 8 brazos trabajando simultáneamente, abrazamos cada detalle de tu proyecto para entregar soluciones que realmente funcionan.",
+      "cta": "Conoce nuestros servicios"
+    }
+  },
+  "services": {
+    "title": "Lo que nuestros",
+    "titleHighlight": "8 brazos",
+    "titleEnd": "hacen",
+    "subtitle": "Servicios completos de desarrollo de software para llevar tu proyecto del concepto al deploy",
+    "webApps": {
+      "title": "Web Apps",
+      "description": "Aplicaciones web modernas y escalables con React, Next.js y las mejores tecnologías del mercado."
+    },
+    "mobile": {
+      "title": "Móvil",
+      "description": "Apps nativas e híbridas para iOS y Android que tus usuarios amarán."
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "description": "Tiendas online completas y optimizadas para convertir visitantes en clientes."
+    },
+    "integrations": {
+      "title": "Integraciones",
+      "description": "Conectamos tus sistemas, APIs y ERPs para automatizar procesos."
+    },
+    "consulting": {
+      "title": "Consultoría",
+      "description": "Estrategia tech, arquitectura de sistemas y mentoría para tu equipo."
+    },
+    "support": {
+      "title": "Soporte",
+      "description": "Mantenimiento continuo, correcciones y evolución de tu software."
+    },
+    "cta": "Solicitar Presupuesto"
+  },
+  "projects": {
+    "title": "Proyectos que",
+    "titleHighlight": "generan resultados",
+    "subtitle": "Del concepto al deploy — cada proyecto es desarrollado para impulsar tu negocio",
+    "viewProject": "Ver proyecto",
+    "stats": {
+      "satisfaction": "Satisfacción",
+      "avgRating": "Valoración media",
+      "avgDelivery": "Tiempo medio de entrega",
+      "responseTime": "Tiempo de respuesta"
+    },
+    "cta": {
+      "text": "Tu proyecto puede ser el próximo caso de éxito",
+      "button": "Solicitar Presupuesto Gratis"
+    }
+  },
+  "process": {
+    "title": "Cómo",
+    "titleHighlight": "abrazamos",
+    "titleEnd": "tu proyecto",
+    "subtitle": "Un proceso transparente y ágil de principio a fin",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "description": "Nos sumergimos profundo para entender tu negocio, objetivos y desafíos. Análisis completo de requisitos.",
+        "duration": "1-3 días"
+      },
+      "proposal": {
+        "title": "Propuesta",
+        "description": "Presentamos una solución personalizada con alcance, cronograma e inversión transparentes.",
+        "duration": "24-48h"
+      },
+      "development": {
+        "title": "Desarrollo",
+        "description": "Nuestros 8 brazos trabajan en sprints ágiles, con entregas incrementales y feedback continuo.",
+        "duration": "1-4 semanas"
+      },
+      "delivery": {
+        "title": "Entrega y Soporte",
+        "description": "Deploy en producción, capacitación del equipo y soporte continuo para garantizar el éxito.",
+        "duration": "Continuo"
+      }
+    },
+    "cta": {
+      "text": "¿Listo para comenzar tu viaje?",
+      "button": "Hablemos"
+    }
+  },
+  "about": {
+    "title": "El cerebro detrás de los",
+    "titleHighlight": "8 brazos",
+    "founder": "Enok",
+    "role": "Fundador y Desarrollador",
+    "quote": "Transformo complejidad en soluciones elegantes",
+    "bio": "Desarrollador Full Stack apasionado por crear experiencias digitales excepcionales. Con años de experiencia en proyectos de todos los tamaños, lidero Octodev con enfoque en calidad, innovación y resultados reales para cada cliente."
+  },
+  "testimonials": {
+    "title": "Lo que dicen sobre",
+    "titleHighlight": "Octodev",
+    "subtitle": "Clientes satisfechos en aguas profundas"
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Resuelve tus dudas sobre nuestro proceso de desarrollo",
+    "questions": {
+      "cost": {
+        "question": "¿Cuánto cuesta desarrollar una aplicación o sistema?",
+        "answer": "El precio varía según la complejidad del proyecto. Landing pages desde $150, sistemas web desde $600 y aplicaciones móviles desde $1,000. Hacemos presupuesto gratis y personalizado para cada proyecto."
+      },
+      "timeline": {
+        "question": "¿Cuál es el plazo de entrega?",
+        "answer": "Landing pages: 5-10 días. Sistemas web simples: 2-4 semanas. Aplicaciones y sistemas complejos: 4-12 semanas. Trabajamos con sprints semanales y puedes seguir todo el progreso."
+      },
+      "maintenance": {
+        "question": "¿Hacen mantenimiento después de la entrega?",
+        "answer": "¡Sí! Ofrecemos 30 días de soporte gratis después de la entrega. Después, tenemos planes de mantenimiento mensual que incluyen actualizaciones, correcciones y pequeñas mejoras."
+      },
+      "process": {
+        "question": "¿Cómo funciona el proceso de desarrollo?",
+        "answer": "Comenzamos con una reunión para entender tu necesidad. Después, enviamos propuesta detallada. Una vez aprobado, iniciamos el desarrollo con entregas semanales para que puedas seguir. Al final, hacemos pruebas y ajustes hasta tu aprobación."
+      },
+      "payment": {
+        "question": "¿Necesito pagar todo por adelantado?",
+        "answer": "No. Trabajamos con 50% en la aprobación y 50% en la entrega. Para proyectos mayores, podemos dividir en más cuotas según las entregas."
+      },
+      "technology": {
+        "question": "¿Con qué tecnologías trabajan?",
+        "answer": "Trabajamos con las tecnologías más modernas del mercado: React, Next.js, React Native, Node.js, TypeScript, Python, PostgreSQL, MongoDB e integraciones con APIs diversas (pagos, WhatsApp, CRMs, etc)."
+      },
+      "satisfaction": {
+        "question": "¿Y si no me gusta el resultado?",
+        "answer": "Hacemos revisiones ilimitadas durante el desarrollo. Apruebas cada etapa antes de avanzar. Nuestra tasa de satisfacción es del 100% porque priorizamos comunicación clara y entregas alineadas."
+      },
+      "companySize": {
+        "question": "¿Atienden empresas de qué tamaño?",
+        "answer": "Atendemos desde emprendedores individuales hasta empresas medianas. Cada proyecto recibe atención personalizada, independiente del tamaño."
+      }
+    },
+    "cta": {
+      "text": "¿Aún tienes dudas?",
+      "button": "Contáctanos"
+    }
+  },
+  "contact": {
+    "title": "¿Vamos a sacar tu proyecto del papel?",
+    "subtitle": "Presupuesto gratis y sin compromiso. Respuesta garantizada en hasta 24 horas.",
+    "availability": "Disponible ahora",
+    "availabilityText": "Aceptando nuevos proyectos para Enero/2026",
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Respuesta rápida en hasta 24h",
+      "cta": "Iniciar conversación"
+    },
+    "email": {
+      "title": "Email",
+      "description": "Para propuestas detalladas"
+    },
+    "cta": "Solicitar Presupuesto Gratis",
+    "guarantee": {
+      "title": "Garantía de Satisfacción",
+      "description": "Si no quedas 100% satisfecho con el resultado, hacemos los cambios necesarios sin costo adicional hasta tu aprobación final."
+    },
+    "badges": {
+      "rating": "de valoración",
+      "projects": "proyectos entregados",
+      "delivery": "Entrega en hasta 30 días"
+    }
+  },
+  "footer": {
+    "tagline": "Desarrollo de software que abraza tu negocio. Soluciones web, móviles e integraciones.",
+    "slogan": "8 brazos. Cero bugs. Posibilidades infinitas.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "contactTitle": "Contacto",
+    "location": "Todo el mundo",
+    "copyright": "Todos los derechos reservados.",
+    "madeWith": "Hecho con 8 tentáculos",
+    "links": {
+      "cases": "Casos de Éxito",
+      "about": "Nosotros",
+      "process": "Proceso",
+      "contact": "Contacto"
+    }
+  },
+  "whatsappMessage": "Hola, vine de tu sitio web y me gustaría un presupuesto"
+}
